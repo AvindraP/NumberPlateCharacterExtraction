@@ -1,0 +1,9 @@
+bikewithouthelmet
+bikewithhelmet
+car
+lorry
+banner
+threewheel
+bus
+pedestrian
+numberplate

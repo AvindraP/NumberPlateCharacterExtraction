@@ -1,0 +1,29 @@
+.topnav {
+    background-color: #2b286d;
+    height: 100;
+    padding: 13px;
+    margin-top: -10px;
+    padding-right: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+    font-style: Georgia;
+    font-size: 20px;
+  }
+  
+
+.sidenav {
+  color: rgb(156, 108, 108);
+  width: 150;
+}
+
+.custom-sidebar .side-nav {
+  background-color: #2b286d; /* Change the background color */
+  color: #fff; /* Change the text color */
+}
+
+
+.custom-sidebar .side-nav-toggle {
+  background-color: #333; /* Change the background color */
+  color: #fff; /* Change the icon color */
+}
