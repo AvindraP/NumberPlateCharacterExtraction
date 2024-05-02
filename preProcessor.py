@@ -90,7 +90,14 @@ def load_svm_model():
 
 svm_model = load_svm_model()
 
-label_mapping = {'1': 6,'Y': 4,'F': 3,'B': 1,'8': 0,'7': 5,'5': 2}
+label_mapping = {
+    '0': 17, '1': 9, '2': 20, '3': 7, '4': 14, '5': 30, '6': 6,
+    '7': 25, '8': 16, '9': 1, 'A': 22, 'B': 10, 'C': 13, 'D': 19,
+    'E': 26, 'F': 21, 'G': 2, 'H': 29, 'I': 3, 'J': 5, 'K': 28,
+    'L': 4, 'M': 8, 'N': 0, 'O': 12, 'P': 27, 'Q': 11, 'R': 18,
+    'S': 31, 'T': 24, 'U': 33, 'V': 34, 'W': 15, 'X': 32, 'Y': 23,
+    'Z': 35
+}
 
 def find_bounding_box_and_crop(image, max_aspect_ratio=5):
     inverted_image = 1 - image
